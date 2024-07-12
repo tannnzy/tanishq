@@ -18,6 +18,19 @@
             .split .recommendations {
                 padding-left: 2%;
             }
+            .contact-details {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            .contact-details .contact-method {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            .contact-details .contact-method span {
+                font-size: 1.25rem;
+            }
         </style>
     </head>
     <body class="is-preload">
@@ -146,28 +159,22 @@
             <!-- Contact -->
             <section id="contact">
                 <div class="inner">
-                    <section class="split">
-                        <section>
-                            <div class="contact-method">
-                                <span class="icon solid alt fa-envelope"></span>
-                                <h3>Email</h3>
-                                <a href="mailto:kotharitanishq4@gmail.com">kotharitanishq4@gmail.com</a>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="contact-method">
-                                <span class="icon solid alt fa-phone"></span>
-                                <h3>Phone</h3>
-                                <span>213-649-6070</span>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="contact-method">
-                                <span class="icon solid alt fa-home"></span>
-                                <h3>Address</h3>
-                                <span>Los Angeles, California, United States</span>
-                            </div>
-                        </section>
+                    <section class="contact-details">
+                        <div class="contact-method">
+                            <span class="icon solid alt fa-envelope"></span>
+                            <h3>Email:</h3>
+                            <a href="mailto:kotharitanishq4@gmail.com">kotharitanishq4@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <span class="icon solid alt fa-phone"></span>
+                            <h3>Phone:</h3>
+                            <span>213-649-6070</span>
+                        </div>
+                        <div class="contact-method">
+                            <span class="icon solid alt fa-home"></span>
+                            <h3>Address:</h3>
+                            <span>Los Angeles, California, United States</span>
+                        </div>
                     </section>
                 </div>
             </section>
