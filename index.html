@@ -41,6 +41,23 @@
                 padding-left: 1rem;
                 font-size: 0.9rem;
             }
+            .calendly-wrapper {
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .calendly-inline-widget {
+                width: 100%;
+                max-width: 350px;
+                height: 350px;
+                border-radius: 15px;
+                overflow: hidden;
+            }
+            .calendly-title {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
         </style>
     </head>
     <body class="is-preload">
@@ -192,10 +209,13 @@
                             <span>Los Angeles, California, United States</span>
                         </div>
                     </section>
-                    <!-- Calendly inline widget begin -->
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/kotharitanishq4/30min" style="min-width:320px;height:700px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                    <!-- Calendly inline widget end -->
+                    <div class="calendly-wrapper">
+                        <h3 class="calendly-title">Book an Appointment</h3>
+                        <!-- Calendly inline widget begin -->
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/kotharitanishq4/30min" style="min-width:320px;"></div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <!-- Calendly inline widget end -->
+                    </div>
                 </div>
             </section>
 
