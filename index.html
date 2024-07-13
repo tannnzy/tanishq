@@ -46,17 +46,22 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                background-color: grey;
+                padding: 1rem;
+                border-radius: 15px;
+                border: 2px solid #ccc;
             }
             .calendly-inline-widget {
                 width: 100%;
-                max-width: 350px;
-                height: 350px;
+                max-width: 320px;
+                height: 320px;
                 border-radius: 15px;
                 overflow: hidden;
             }
             .calendly-title {
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
+                color: white;
             }
         </style>
     </head>
@@ -212,7 +217,7 @@
                     <div class="calendly-wrapper">
                         <h3 class="calendly-title">Book an Appointment</h3>
                         <!-- Calendly inline widget begin -->
-                        <div class="calendly-inline-widget" data-url="https://calendly.com/kotharitanishq4/30min" style="min-width:320px;"></div>
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/kotharitanishq4/30min"></div>
                         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
                         <!-- Calendly inline widget end -->
                     </div>
